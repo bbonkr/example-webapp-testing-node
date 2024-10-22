@@ -1,0 +1,20 @@
+{
+  "name": "example-work-after-response-test",
+  "version": "1.0.0",
+  "main": "dest/index.js",
+  "scripts": {
+    "start": "export NODE_TLS_REJECT_UNAUTHORIZED=0 && node dist/app.js",
+    "build": "tsc -p .",
+    "dev": "nodemon --watch \"src/**/*.ts\" --exec \"ts-node\" src/app.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/node": "^22.7.8",
+    "nodemon": "^3.1.7",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3"
+  }
+}
